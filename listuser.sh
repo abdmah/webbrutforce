@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Create by abdmah
+# Create by abdmah 2026
 
 for i in $(cat users.txt)
 do
