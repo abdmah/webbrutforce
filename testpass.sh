@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Create by abdmah
 
 for i in $(cat pass.txt)
 do
