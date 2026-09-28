@@ -4,3 +4,4 @@ listeruser.sh : Use to list valid user.
 
 testpass.sh : Used to test password for 1 user(don't forget to change the user).
 
+Note : I used this 2 scripts for Authentication PortSwigger Lab.
